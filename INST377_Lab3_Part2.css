@@ -1,0 +1,55 @@
+body {
+    background-color: #d5cbf5;
+  }
+
+#top_bottom-bar {
+    text-align: center;
+    background-color: #9966CC;
+    font-family: "Georgia", Georgia, serif;
+    padding: 7px;
+    margin: 10px;
+    clear: both;
+}
+
+#nav-bar {
+    background-color: #6F4685;
+    text-align: center;
+}
+#nav-bar li:hover{
+    background-color: #3a333e;
+    color: white;
+}
+#nav-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.box {
+    width: 55%;
+    float: left;
+    margin: 5;
+}
+.inside-box {
+    background-color: #9E7BB5;
+    color: black;
+    font-family: "Georgia", Georgia, serif;
+    border: 2px solid black;
+    padding: 5px;
+}
+input[type="text"]:focus {
+    width: 300px;
+}
+
+#rules {
+    background-color: #996cb8;
+    text-align: center;
+    float: right;
+    width: 30%;
+    padding: 10px;
+    margin: 10;
+}
+#rules:hover {
+    background-color: #7f4aa3;
+}
